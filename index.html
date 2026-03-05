@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Débora Sigaud | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="icon" href="images/favicon.png?v=1"> <link rel="shortcut icon" href="images/favicon.png?v=1">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="cursor">🍓</div>
+
+<nav class="navbar">
+
+<div class="logo">Débora Sigaud</div>
+
+<div class="nav-right">
+<a href="https://github.com/debora67" target="_blank">GitHub</a>
+<a href="https://linkedin.com/in/deborasigaud" target="_blank">LinkedIn</a>
+<a href="mailto:deboracsigaud@gmail.com">Email</a>
+
+<button id="darkToggle">🌙</button>
+</div>
+
+</nav>
+
+<section class="hero">
+
+<div class="about-photo">
+<img src="images/eu.jpeg" alt="Débora">
+</div>
+
+<div class="bio">
+
+<div class="about-col">
+
+<h2>Sobre mim</h2>
+
+<p>
+Oi! Eu sou a Débora Sigaud, estudante de Engenharia de Software e editora de vídeo apaixonada por motion graphics e edição criativa.
+
+Gosto especialmente de trabalhar com After Effects criando animações, motion typography, transições e composições visuais que trazem ritmo e identidade para um vídeo.
+</p>
+
+</div>
+
+<div class="about-col">
+
+<h2>About me</h2>
+
+<p>
+Hi! I'm Débora Sigaud, a Software Engineering student and video editor passionate about motion graphics and creative editing.
+
+I especially enjoy working with After Effects creating motion graphics, typography animation, transitions and compositions that bring rhythm and personality to a video.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="projects">
+
+<h2>Projects</h2>
+
+<div class="slider-wrapper">
+
+<button class="slider-btn left">&#10094;</button>
+
+<div class="projects-slider">
+
+<div class="project-card video-card" data-video="videos/project1.mp4">
+<video muted loop>
+<source src="videos/project1.mp4" type="video/mp4">
+</video>
+<h3>Letterboxd Wrapped</h3>
+<p>Motion graphics project inspired by streaming recaps.</p>
+</div>
+
+<div class="project-card video-card" data-video="videos/project2.mp4">
+<video muted loop>
+<source src="videos/project2.mp4" type="video/mp4">
+</video>
+<h3>Music Video Trailer</h3>
+<p>Cinematic trailer inspired by music video storytelling.</p>
+</div>
+
+<div class="project-card video-card" data-video="videos/project3.mp4">
+<video muted loop>
+<source src="videos/project3.mp4" type="video/mp4">
+</video>
+<h3>Title Sequence</h3>
+<p>TV show opening created with motion typography.</p>
+</div>
+
+<div class="project-card video-card" data-video="videos/project4.mp4">
+<video muted loop>
+<source src="videos/project4.mp4" type="video/mp4">
+</video>
+<h3>App Promo</h3>
+<p>Promo video for a fictional mobile application.</p>
+</div>
+
+<div class="project-card video-card" data-video="videos/project5.mp4">
+<video muted loop>
+<source src="videos/project5.mp4" type="video/mp4">
+</video>
+<h3>xxx</h3>
+<p>Exxxx.</p>
+</div>
+
+</div>
+
+<button class="slider-btn right">&#10095;</button>
+
+</div>
+
+</section>
+
+<div id="modal" class="modal">
+
+<div class="modal-content">
+
+<span class="close">&times;</span>
+
+<video id="modalVideo" controls></video>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 Débora Sigaud 🍓</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
